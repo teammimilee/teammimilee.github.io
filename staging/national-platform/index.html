@@ -31,7 +31,7 @@
     <div class="flex flex-col min-h-screen">
       
 <nav x-data="{ open: false }" class="bg-white shadow relative">
-  <div class="px-8 md:px-16 lg:px-32">
+  <div class="px-8 md:px-16 lg:px-16">
     <div class="flex justify-between h-16">
       <div class="flex">
         <div class="flex items-center">
@@ -136,27 +136,33 @@
       <div class="flex-grow max-w-full">
         <main class="container mx-auto py-12" id="content">
           
-<article class="max-w-screen-xl px-8 md:px-16 lg:px-32 mx-auto px-4">
+<article class="max-w-screen-xl px-8 md:px-16 lg:px-16 mx-auto px-4">
 
   <h1 class="text-gray-700">National Platform</h1>
 
   
 
   
+<style>
+  ul { margin-left: 0 }
+</style>
+
 
 
 
 <section class="platform-section grid md:grid-cols-2 gap-8 mb-12">
-  <div class="flex flex-col space-y-4">
-    <h2 class="">The Platform</h2>
-    <div class="prose max-w-none">
-      Our beautiful country needs national policies to maintain its intricate and scenic environment, its fairness between individuals and to serve the people. National policies also help to maintain our country's competitiveness, build your wealth and take care of your health.
+  <div class="flex flex-col justify-between h-full ">
+    <div class="space-y-4">
+      <h2 class="">The Platform</h2>
+      <div class="prose max-w-none">
+        Our beautiful country needs national policies to maintain its intricate and scenic environment, its fairness between individuals and to serve the people. National policies also help to maintain our country's competitiveness, build your wealth and take care of your health.
+      </div>
     </div>
     
   </div>
   
-  <div class="relative">
-    <img src="/assets/svg/placeholder-feature.svg" alt="The Platform" class="w-full h-full object-cover rounded-lg">
+  <div class="relative ">
+    <img src="/assets/images/pages/sphere.jpg" alt="The Platform" class="w-full h-full object-cover rounded-lg">
     
   </div>
 </section>
@@ -164,26 +170,28 @@
 
 
 <section class="platform-section grid md:grid-cols-2 gap-8 mb-12">
-  <div class="flex flex-col space-y-4">
-    <h2 class="">Stay Strong in Freedom</h2>
-    <div class="prose max-w-none">
-      Canada should untangle ourselves from relying on countries that violate International Human Rights Law. And our government should give as much assistance as we can, to the victims of human rights suppression.
+  <div class="flex flex-col justify-between h-full md:order-2">
+    <div class="space-y-4">
+      <h2 class="">Stay Strong in Freedom</h2>
+      <div class="prose max-w-none">
+        Canada should untangle ourselves from relying on countries that violate International Human Rights Law. And our government should give as much assistance as we can, to the victims of human rights suppression.
+      </div>
     </div>
     
-    <div class="mt-auto pt-4">
-      <a href="/support-us" class="inline-block w-1/2 bg-blue-600 text-white h-10 px-4 rounded hover:bg-blue-700 transition-colors text-center leading-10">
+    <div class="mt-8 text-center">
+      <a href="/support-us" class="inline-block w-4/5 text-white bg-primary-500 hover:bg-primary-700 h-10 px-4 rounded transition-colors text-center leading-10 mx-auto">
         Agree with us
       </a>
     </div>
     
   </div>
   
-  <div class="relative">
+  <div class="relative md:order-1">
     <img src="/assets/svg/placeholder-feature.svg" alt="Stay Strong in Freedom" class="w-full h-full object-cover rounded-lg">
     
     <div class="absolute top-4 left-4 space-y-2 z-10">
       
-      <div class="bg-blue-600 text-white px-4 py-1 rounded-full text-sm">Empower</div>
+      <div class="bg-primary-500 text-white px-4 py-1 rounded-full text-sm">Empower</div>
       
       
     </div>
@@ -194,62 +202,30 @@
 
 
 <section class="platform-section grid md:grid-cols-2 gap-8 mb-12">
-  <div class="flex flex-col space-y-4">
-    <h2 class="">Social justice for Canadians</h2>
-    <div class="prose max-w-none">
-      <ul>
+  <div class="flex flex-col justify-between h-full ">
+    <div class="space-y-4">
+      <h2 class="">Social justice for Canadians</h2>
+      <div class="prose max-w-none">
+        <ul>
     <li>Partner with Indigenous Canadians for environmentally sustainable extraction and refining of critical materials for green technologies</li>
     <li>Increase immigration levels to grow the economy and allow family reunification</li>
     <li>Strong stance on human rights to support the many Canadians who have come from countries which violate human rights</li>
     <li>These, together, can create a fair and sustainable economy, and equity among all Canadians.</li>
   </ul>
+      </div>
     </div>
     
   </div>
   
-  <div class="relative">
+  <div class="relative ">
     <img src="/assets/svg/placeholder-feature.svg" alt="Social justice for Canadians" class="w-full h-full object-cover rounded-lg">
     
     <div class="absolute top-4 left-4 space-y-2 z-10">
       
-      <div class="bg-blue-600 text-white px-4 py-1 rounded-full text-sm">Social</div>
+      <div class="bg-primary-500 text-white px-4 py-1 rounded-full text-sm">Social</div>
       
       
-      <div class="bg-blue-600 text-white px-4 py-1 rounded-full text-sm">Justice</div>
-      
-    </div>
-    
-  </div>
-</section>
-
-
-
-<section class="platform-section grid md:grid-cols-2 gap-8 mb-12">
-  <div class="flex flex-col space-y-4">
-    <h2 class="">Human Trafficking</h2>
-    <div class="prose max-w-none">
-      It may sound distant to most of us, however victims of human trafficking are all around us.<br>
-  In 2021, reported human trafficking in the York Region rose to <a href='https://www.newmarkettoday.ca/local-news/human-trafficking-reports-rise-to-295-during-pandemic-york-regional-police-say-3571702'>295 cases</a>. The <a href='https://www150.statcan.gc.ca/n1/pub/85-005-x/2021001/article/00001-eng.htm'>national cases</a> are rising over the past five years. Sex trafficking is not an unfamiliar issue to the <a href='https://www.yrp.ca/en/crime-prevention/Stop-Sex-Trafficking.asp'>York Region Police</a>, too.<br/><br/>
-  Human rights is one of the biggest concerns of Team Mimi Lee, our goal is to bring down the national and provincial human trafficking numbers, and assist victims to live a normal life.
-    </div>
-    
-    <div class="mt-auto pt-4">
-      <a href="/platform/anti-trafficking" class="inline-block w-1/2 bg-blue-600 text-white h-10 px-4 rounded hover:bg-blue-700 transition-colors text-center leading-10">
-        Anti-trafficking action
-      </a>
-    </div>
-    
-  </div>
-  
-  <div class="relative">
-    <img src="/assets/svg/placeholder-feature.svg" alt="Human Trafficking" class="w-full h-full object-cover rounded-lg">
-    
-    <div class="absolute top-4 left-4 space-y-2 z-10">
-      
-      <div class="bg-blue-600 text-white px-4 py-1 rounded-full text-sm">Safety</div>
-      
-      
-      <div class="bg-blue-600 text-white px-4 py-1 rounded-full text-sm">Rights</div>
+      <div class="bg-primary-500 text-white px-4 py-1 rounded-full text-sm">Justice</div>
       
     </div>
     
@@ -259,20 +235,22 @@
 
 
 <section class="platform-section grid md:grid-cols-2 gap-8 mb-12">
-  <div class="flex flex-col space-y-4">
-    <h2 class="">Electoral reform</h2>
-    <div class="prose max-w-none">
-      Canada's current electoral system is a "first past the post" (FPTP) system. The candidate with the most votes in a riding wins a seat in the House of Commons and represents that riding as its MP. FPTP in Canada is responsible for electing a number of false majority governments. A false majority government occurs when a Party holds the majority of seats in the House of Commons but didn't win 50% the popular vote in the election....
+  <div class="flex flex-col justify-between h-full md:order-2">
+    <div class="space-y-4">
+      <h2 class="">Electoral reform</h2>
+      <div class="prose max-w-none">
+        Canada's current electoral system is a "first past the post" (FPTP) system. The candidate with the most votes in a riding wins a seat in the House of Commons and represents that riding as its MP. FPTP in Canada is responsible for electing a number of false majority governments. A false majority government occurs when a Party holds the majority of seats in the House of Commons but didn't win 50% the popular vote in the election....
+      </div>
     </div>
     
   </div>
   
-  <div class="relative">
+  <div class="relative md:order-1">
     <img src="/assets/svg/placeholder-feature.svg" alt="Electoral reform" class="w-full h-full object-cover rounded-lg">
     
     <div class="absolute top-4 left-4 space-y-2 z-10">
       
-      <div class="bg-blue-600 text-white px-4 py-1 rounded-full text-sm">Reform</div>
+      <div class="bg-primary-500 text-white px-4 py-1 rounded-full text-sm">Reform</div>
       
       
     </div>
@@ -286,11 +264,14 @@
       </div>
 
       <footer>
-  <div class="bg-secondary">
+  <div class="bg-secondary-600">
     <div class="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
       <div class="py-8 border-purple-500">
-        <div class="flex justify-center md:justify-start">
+        <div class="flex flex-col items-center md:items-start space-y-4">
           <img src="/assets/svg/PPC_stack_color_512x512.svg" alt="Logo of the People's Party of Canada" class="h-20 w-auto text-white">
+          <p class="text-white text-center md:text-left">Donate to us at finance.teammimilee@teamppc.ca</p>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeiuMcB1XJwZOy3lTdIZQqzI9LE5gtknGNRJcGKmrqjWq3r5Q/viewform?pli=1" class="text-white hover:text-purple-300 text-center md:text-left">Volunteer with us</a>
+          <a href="mailto:teammimilee@teamppc.ca?subject=Request%20a%20lawn%20sign" class="text-white hover:text-purple-300 text-center md:text-left">Request a lawn sign</a>
         </div>
       </div>
       <div class="pb-12 md:flex md:items-center md:justify-between">
